@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FitBit</string>
+    <string name="total_calories_0">Total Calories: 0</string>
+    <string name="food">Food:</string>
+    <string name="enter_food_name">Enter Food Name</string>
+    <string name="calories">Calories:</string>
+    <string name="record_this_food">Record This Food</string>
+    <string name="enter_calories">Enter Calories</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="log">Log</string>
 </resources>

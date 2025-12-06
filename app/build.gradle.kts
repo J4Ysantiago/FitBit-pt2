@@ -5,11 +5,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.fitbit"
+    namespace = "com.example.fitbitpt2"
     compileSdk = 36
-
     defaultConfig {
-        applicationId = "com.example.fitbit"
+        applicationId = "com.example.fitbitpt2"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -39,9 +38,11 @@ android {
 }
 
 dependencies {
-    implementation("androidx.room:room-runtime:2.8.4")
-    kapt("androidx.room:room-compiler:2.8.4")
-    implementation("androidx.recyclerview:recyclerview:1.4.0")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    kapt(libs.androidx.room.compiler)
+    implementation(libs.androidx.recyclerview)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -52,5 +53,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
 }
 

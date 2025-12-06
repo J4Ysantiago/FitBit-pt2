@@ -1,4 +1,4 @@
-package com.example.fitbit
+package com.example.fitbitpt2
 
 import android.content.Context
 import androidx.room.Database

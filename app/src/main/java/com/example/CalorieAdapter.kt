@@ -1,4 +1,4 @@
-package com.example.fitbit
+package com.example.fitbitpt2
 
 import android.view.LayoutInflater
 import android.view.View

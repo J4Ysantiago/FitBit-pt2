@@ -1,5 +1,4 @@
-package com.example.fitbit
-
+package com.example.fitbitpt2
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
